@@ -134,20 +134,6 @@ function drawPPM(ctx, data) {
     ctx.fillRect(x*cellSize, y*cellSize, cellSize, cellSize)
     
   }
-  // for(let ix = 0;ix < width;ix++){
-  //   for(let iy = 0;iy < height;iy++){
-      
-  //     // const [r,g,b] = rgbPixels.slice(x*3+y, 3)
-  //     // console.log('x, y', x, y, 'x*3+y', x*3+y, 'pixels value at x*3+y', rgbPixels[x*3+y])
-  //     console.log('x,y', ix, iy)
-  //     const r = 255
-  //     const g = 0
-  //     const b = 0
-      
-  //     // console.log('fillStyle', ctx.fillStyle)
-  //     ctx.fillRect(ix*cellSize, iy*cellSize, cellSize, cellSize)
-  //   }
-  // }
 }
 
 function PPM({ data }) {
